@@ -15,6 +15,7 @@
 		446256001D477EB60059E5A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446255FE1D477EB60059E5A4 /* LaunchScreen.storyboard */; };
 		4462560B1D477EB60059E5A4 /* Test_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4462560A1D477EB60059E5A4 /* Test_CalculatorTests.m */; };
 		446256161D477EB60059E5A4 /* Test_CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 446256151D477EB60059E5A4 /* Test_CalculatorUITests.m */; };
+		446256251D47A1BB0059E5A4 /* CalculatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446256241D47A1BB0059E5A4 /* CalculatorModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		446256111D477EB60059E5A4 /* Test-CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		446256151D477EB60059E5A4 /* Test_CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_CalculatorUITests.m; sourceTree = "<group>"; };
 		446256171D477EB60059E5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446256231D47A1BB0059E5A4 /* CalculatorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorModel.h; sourceTree = "<group>"; };
+		446256241D47A1BB0059E5A4 /* CalculatorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				446255FE1D477EB60059E5A4 /* LaunchScreen.storyboard */,
 				446256011D477EB60059E5A4 /* Info.plist */,
 				446255F01D477EB60059E5A4 /* Supporting Files */,
+				446256231D47A1BB0059E5A4 /* CalculatorModel.h */,
+				446256241D47A1BB0059E5A4 /* CalculatorModel.m */,
 			);
 			path = "Test-Calculator";
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				446255F81D477EB60059E5A4 /* ViewController.m in Sources */,
 				446255F51D477EB60059E5A4 /* AppDelegate.m in Sources */,
 				446255F21D477EB60059E5A4 /* main.m in Sources */,
+				446256251D47A1BB0059E5A4 /* CalculatorModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
